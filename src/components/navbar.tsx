@@ -31,13 +31,13 @@ export default function Navbar() {
                 Home
               </a>
             </Link>
-            <Link href="/solutions" passHref legacyBehavior>
+            <Link href="/generate" passHref legacyBehavior>
               <a
                 className={`text-gray-600 hover:text-gray-800 rounded-lg px-3 py-2 ${
-                  pathname === "/solutions" ? "bg-gray-100" : ""
+                  pathname === "/generate" ? "bg-gray-100" : ""
                 }`}
               >
-                Solutions
+                Generate
               </a>
             </Link>
             <Link href="/community" passHref legacyBehavior>
